@@ -1,0 +1,8 @@
+l , w, p =input().split()
+l =float(l)
+w = float(w)
+p =float(p)
+area = (l*w)
+path =((l+p+p)*(w+p+p))
+total =(path - area)
+print(f"Area of the path is {total:.2f} square metres.")
