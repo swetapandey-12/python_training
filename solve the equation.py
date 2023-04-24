@@ -1,0 +1,5 @@
+a,b =input().split()
+a =float(a)
+b =float(b)
+calc =(a+b)/(a-b)
+print(f"{calc:.2f}")
